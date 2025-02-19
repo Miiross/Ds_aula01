@@ -1,0 +1,21 @@
+--Configuração Inicial
+git config --global init.defaultBranch main  
+git config --global user.name "SEU NOME"  
+git config --global user.email "seuemail@seuEmail.com" 
+
+echo "#DS - Aula 01 - Variáveis e Métodos" >> README.md  (conferir se projeto já tem arquivo)
+dotnet new gitignore (conferir se projeto já tem arquivo)
+
+--Subindo para o repositório
+git init  
+git add . 
+git commit -m "Aula 01 - Criação do Projeto RPG API - Métodos GET"
+git branch -M main  
+git remote add origin https://github.com/complemento do repositorio 
+git push -u origin main
+
+--Atualizar projeto no respotitório
+git status 
+git add . 
+git commit -m “DS - Aula 01 - Variáveis e Métodos” 
+git push [-u origin main] 
